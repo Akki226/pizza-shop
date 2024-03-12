@@ -1,0 +1,111 @@
+.cart {
+    margin-bottom: 30px;
+}
+
+.checkoutFooter {
+    position: sticky;
+    bottom: 0;
+    z-index: 90;
+    margin: 0 auto;
+}
+
+.add-pizza-btn {
+    position: fixed;
+    top: 30vh;
+    right: 4vw;
+    font-size: 30px;
+    box-shadow: 2px 2px 5px #DAD7D1;
+    z-index: 100;
+    transition: 0.2s;
+}
+
+.add-pizza-btn:hover {
+    scale: 1.05;
+    transition: 0.2s;
+}
+
+h3.cart-title {
+    display: flex;
+    justify-content: center;
+}
+
+.pizza-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.pizza-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #DAD7D1;
+    z-index: 6;
+    transition: 0.2s;
+}
+
+.pizza-item:hover {
+    scale: 1.05;
+    transition: 0.2s;
+}
+
+.pizza-name-and-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pizza-icon {
+    position: relative;
+    height: auto;
+    width: 40%;
+}
+
+.pizza-details {
+    height: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pizza-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: sticky;
+    bottom: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#edit-modal-save-btn {
+    font-size: 30px;
+    box-shadow: 2px 2px 5px #DAD7D1;
+    transition: 0.2s;
+}
+
+#edit-modal-save-btn:hover {
+    scale: 1.05;
+    transition: 0.2s;
+}

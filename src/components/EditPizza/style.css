@@ -1,0 +1,54 @@
+.selector-titles {
+    display: flex;
+    justify-content: center;
+}
+
+.size-selector {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.toppings-selector {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: center;
+}
+
+.topping-btn {
+    width: 200px;
+    transition: 0.2s;
+}
+
+.topping-btn:hover {
+    scale: 1.02;
+    transition: 0.2s;
+}
+
+.topping-button-contents {
+    display: flex;
+    align-items: center;
+}
+
+.topping-image {
+    object-fit: contain;
+    width: 70px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.pizza-total-price-div {
+    position: sticky;
+    bottom: 90px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 20px;
+    pointer-events: none;
+}
+
+#pizza-total-price {
+    font-size: 35px;
+    box-shadow: 2px 2px 5px #DAD7D1;
+}

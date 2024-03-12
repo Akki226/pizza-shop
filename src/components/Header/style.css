@@ -1,0 +1,20 @@
+.header {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 80px;
+    top: 0;
+    z-index: 95;
+    pointer-events: none;
+    transition: 0.2s;
+}
+
+.logo {
+    position: relative;
+    height: 200px;
+    width: auto;
+    top: 20px;
+    margin-left: 10vw;
+    transition: 0.2s;
+}
